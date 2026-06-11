@@ -11,7 +11,7 @@ AUTO_TRA ~%MOD_FOLDER%/tra/%s~
 
 ALWAYS
 	// Convert tra files for classic games
-    ACTION_IF NOT GAME_IS ~bgee bg2ee eet~ BEGIN
+    ACTION_IF NOT GAME_IS ~bgee bg2ee eet iwdee~ BEGIN
         ACTION_DEFINE_ARRAY utf8noconvert BEGIN END
         ACTION_DEFINE_ARRAY utf8reload BEGIN gamesds END
         LAF HANDLE_CHARSETS
@@ -27,7 +27,7 @@ ALWAYS
     END
 END
 
-LANGUAGE ~Simplified Chinese~  ~schinese~  ~JJSDS/tra/schinese/gamesds.tra~
+LANGUAGE ~Simplified Chinese~ ~schinese~ ~JJSDS/tra/schinese/gamesds.tra~
 
 BEGIN @100
 
