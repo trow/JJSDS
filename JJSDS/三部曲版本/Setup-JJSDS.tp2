@@ -1,0 +1,597 @@
+BACKUP ~JJSDS\backup~ 
+AUTHOR ~248514982@qq.com~ 
+
+README ~%MOD_FOLDER%/readme.txt~
+
+VERSION ~v2.23~
+
+LANGUAGE  ~Simplified Chinese~	~schinese~  ~JJSDS/tra/schinese/gamesds.tra~                         
+
+BEGIN @100
+
+
+//杂项预复制
+
+COPY ~JJSDS/2da~ ~override~
+
+COPY ~JJSDS/bam~ ~override~
+
+COPY ~JJSDS/eff~ ~override~
+
+COPY ~JJSDS/itm~ ~override~
+
+COPY ~JJSDS/pro~ ~override~
+
+COPY ~JJSDS/spl~ ~override~
+
+
+//投射文件pro
+
+ADD_PROJECTILE      ~JJSDS/pro/sds#al.pro~
+
+ADD_PROJECTILE      ~JJSDS/pro/sds#fy.pro~
+
+ADD_PROJECTILE      ~JJSDS/pro/sds#mq.pro~
+
+ADD_PROJECTILE      ~JJSDS/pro/sds#sd.pro~
+
+///////////拳头名写入//////////////
+
+COPY ~JJSDS/itm/sds#tm0.itm~      ~override/sds#tm0.itm~
+SAY NAME2 @210
+
+COPY ~JJSDS/itm/sds#tm1.itm~      ~override/sds#tm1.itm~
+SAY NAME2 @211
+
+COPY ~JJSDS/itm/sds#tmc.itm~      ~override/sds#tmc.itm~
+SAY NAME2 @211
+
+COPY ~JJSDS/itm/sds#tmd.itm~      ~override/sds#tmd.itm~
+SAY NAME2 @211
+
+COPY ~JJSDS/itm/sds#tm2.itm~      ~override/sds#tm2.itm~
+SAY NAME2 @212
+
+COPY ~JJSDS/itm/sds#tme.itm~      ~override/sds#tme.itm~
+SAY NAME2 @212
+
+COPY ~JJSDS/itm/sds#tmf.itm~      ~override/sds#tmf.itm~
+SAY NAME2 @212
+
+COPY ~JJSDS/itm/sds#tm3.itm~      ~override/sds#tm3.itm~
+SAY NAME2 @213
+
+COPY ~JJSDS/itm/sds#tmg.itm~      ~override/sds#tmg.itm~
+SAY NAME2 @213
+
+COPY ~JJSDS/itm/sds#tm4.itm~      ~override/sds#tm4.itm~
+SAY NAME2 @214
+
+COPY ~JJSDS/itm/sds#tm5.itm~      ~override/sds#tm5.itm~
+SAY NAME2 @215
+
+COPY ~JJSDS/itm/sds#tm6.itm~      ~override/sds#tm6.itm~
+SAY NAME2 @216
+
+COPY ~JJSDS/itm/sds#fy0.itm~      ~override/sds#fy0.itm~
+SAY NAME2 @220
+
+COPY ~JJSDS/itm/sds#fy1.itm~      ~override/sds#fy1.itm~
+SAY NAME2 @221
+
+COPY ~JJSDS/itm/sds#fy2.itm~      ~override/sds#fy2.itm~
+SAY NAME2 @222
+
+COPY ~JJSDS/itm/sds#fy3.itm~      ~override/sds#fy3.itm~
+SAY NAME2 @223
+
+COPY ~JJSDS/itm/sds#fyg.itm~      ~override/sds#fyg.itm~
+SAY NAME2 @223
+
+COPY ~JJSDS/itm/sds#fy4.itm~      ~override/sds#fy4.itm~
+SAY NAME2 @224
+
+COPY ~JJSDS/itm/sds#fy5.itm~      ~override/sds#fy5.itm~
+SAY NAME2 @225
+
+COPY ~JJSDS/itm/sds#fy6.itm~      ~override/sds#fy6.itm~
+SAY NAME2 @226
+
+COPY ~JJSDS/itm/sds#zs0.itm~      ~override/sds#zs0.itm~
+SAY NAME2 @230
+
+COPY ~JJSDS/itm/sds#zs1.itm~      ~override/sds#zs1.itm~
+SAY NAME2 @231
+
+COPY ~JJSDS/itm/sds#zsc.itm~      ~override/sds#zsc.itm~
+SAY NAME2 @231
+
+COPY ~JJSDS/itm/sds#zsd.itm~      ~override/sds#zsd.itm~
+SAY NAME2 @231
+
+COPY ~JJSDS/itm/sds#zs2.itm~      ~override/sds#zs2.itm~
+SAY NAME2 @232
+
+COPY ~JJSDS/itm/sds#zse.itm~      ~override/sds#zse.itm~
+SAY NAME2 @232
+
+COPY ~JJSDS/itm/sds#zsf.itm~      ~override/sds#zsf.itm~
+SAY NAME2 @232
+
+COPY ~JJSDS/itm/sds#zs3.itm~      ~override/sds#zs3.itm~
+SAY NAME2 @233
+
+COPY ~JJSDS/itm/sds#zsg.itm~      ~override/sds#zsg.itm~
+SAY NAME2 @233
+
+COPY ~JJSDS/itm/sds#zs4.itm~      ~override/sds#zs4.itm~
+SAY NAME2 @234
+
+COPY ~JJSDS/itm/sds#zs5.itm~      ~override/sds#zs5.itm~
+SAY NAME2 @235
+
+COPY ~JJSDS/itm/sds#zs6.itm~      ~override/sds#zs6.itm~
+SAY NAME2 @236
+
+COPY ~JJSDS/itm/sds#sd0.itm~      ~override/sds#sd0.itm~
+SAY NAME2 @240
+
+COPY ~JJSDS/itm/sds#sd1.itm~      ~override/sds#sd1.itm~
+SAY NAME2 @241
+
+COPY ~JJSDS/itm/sds#sd2.itm~      ~override/sds#sd2.itm~
+SAY NAME2 @242
+
+COPY ~JJSDS/itm/sds#sd3.itm~      ~override/sds#sd3.itm~
+SAY NAME2 @243
+
+COPY ~JJSDS/itm/sds#sdg.itm~      ~override/sds#sdg.itm~
+SAY NAME2 @243
+
+COPY ~JJSDS/itm/sds#sd4.itm~      ~override/sds#sd4.itm~
+SAY NAME2 @244
+
+COPY ~JJSDS/itm/sds#sd5.itm~      ~override/sds#sd5.itm~
+SAY NAME2 @245
+
+COPY ~JJSDS/itm/sds#sd6.itm~      ~override/sds#sd6.itm~
+SAY NAME2 @246
+
+COPY ~JJSDS/itm/sds#mq1.itm~      ~override/sds#mq1.itm~
+SAY NAME2 @261
+
+COPY ~JJSDS/itm/sds#mqc.itm~      ~override/sds#mqc.itm~
+SAY NAME2 @261
+
+COPY ~JJSDS/itm/sds#mqd.itm~      ~override/sds#mqd.itm~
+SAY NAME2 @261
+
+COPY ~JJSDS/itm/sds#mq2.itm~      ~override/sds#mq2.itm~
+SAY NAME2 @262
+
+COPY ~JJSDS/itm/sds#mqe.itm~      ~override/sds#mqe.itm~
+SAY NAME2 @262
+
+COPY ~JJSDS/itm/sds#mqf.itm~      ~override/sds#mqf.itm~
+SAY NAME2 @262
+
+COPY ~JJSDS/itm/sds#mq3.itm~      ~override/sds#mq3.itm~
+SAY NAME2 @263
+
+COPY ~JJSDS/itm/sds#mqg.itm~      ~override/sds#mqg.itm~
+SAY NAME2 @263
+
+COPY ~JJSDS/itm/sds#mq4.itm~      ~override/sds#mq4.itm~
+SAY NAME2 @264
+
+COPY ~JJSDS/itm/sds#mq5.itm~      ~override/sds#mq5.itm~
+SAY NAME2 @265
+
+COPY ~JJSDS/itm/sds#mq6.itm~      ~override/sds#mq6.itm~
+SAY NAME2 @266
+
+COPY ~JJSDS/itm/sds#gs1.itm~      ~override/sds#gs1.itm~
+SAY NAME2 @251
+
+COPY ~JJSDS/itm/sds#gsd.itm~      ~override/sds#gsd.itm~
+SAY NAME2 @251
+
+COPY ~JJSDS/itm/sds#gs2.itm~      ~override/sds#gs2.itm~
+SAY NAME2 @252
+
+COPY ~JJSDS/itm/sds#gse.itm~      ~override/sds#gse.itm~
+SAY NAME2 @252
+
+COPY ~JJSDS/itm/sds#gsf.itm~      ~override/sds#gsf.itm~
+SAY NAME2 @252
+
+COPY ~JJSDS/itm/sds#gs3.itm~      ~override/sds#gs3.itm~
+SAY NAME2 @253
+
+COPY ~JJSDS/itm/sds#gsg.itm~      ~override/sds#gsg.itm~
+SAY NAME2 @253
+
+COPY ~JJSDS/itm/sds#gs4.itm~      ~override/sds#gs4.itm~
+SAY NAME2 @254
+
+COPY ~JJSDS/itm/sds#gs5.itm~      ~override/sds#gs5.itm~
+SAY NAME2 @255
+
+COPY ~JJSDS/itm/sds#gs6.itm~      ~override/sds#gs6.itm~
+SAY NAME2 @256
+
+COPY ~JJSDS/itm/sds#al.itm~      ~override/sds#al.itm~
+SAY NAME2 @311
+
+COPY ~JJSDS/itm/sds#hx.itm~      ~override/sds#hx.itm~
+SAY NAME2 @321
+
+COPY ~JJSDS/itm/sds#pt1.itm~      ~override/sds#pt1.itm~
+SAY NAME2 @502
+
+COPY ~JJSDS/itm/sds#pt3.itm~      ~override/sds#pt3.itm~
+SAY NAME2 @502
+
+COPY ~JJSDS/itm/sds#pt6.itm~      ~override/sds#pt6.itm~
+SAY NAME2 @502
+
+COPY ~JJSDS/itm/sds#pt9.itm~      ~override/sds#pt9.itm~
+SAY NAME2 @502
+
+COPY ~JJSDS/itm/sds#ptb.itm~      ~override/sds#ptb.itm~
+SAY NAME2 @502
+
+COPY ~JJSDS/itm/sds#ptc.itm~      ~override/sds#ptc.itm~
+SAY NAME2 @502
+
+COPY ~JJSDS/itm/sds#ptd.itm~      ~override/sds#ptd.itm~
+SAY NAME2 @502
+
+COPY ~JJSDS/itm/sds#pte.itm~      ~override/sds#pte.itm~
+SAY NAME2 @502
+
+COPY ~JJSDS/itm/sds#ptf.itm~      ~override/sds#ptf.itm~
+SAY NAME2 @502
+
+COPY ~JJSDS/itm/sds#ptg.itm~      ~override/sds#ptg.itm~
+SAY NAME2 @502
+
+///////////圣衣圣盔名写入//////////////
+
+COPY ~JJSDS/itm/sds#y01.itm~      ~override/sds#y01.itm~
+SAY NAME2 @411
+SAY IDENTIFIED_DESC @412
+
+COPY ~JJSDS/itm/sds#y02.itm~      ~override/sds#y02.itm~
+SAY NAME2 @411
+SAY IDENTIFIED_DESC @412
+
+COPY ~JJSDS/itm/sds#y03.itm~      ~override/sds#y03.itm~
+SAY NAME2 @411
+SAY IDENTIFIED_DESC @412
+
+COPY ~JJSDS/itm/sds#y04.itm~      ~override/sds#y04.itm~
+SAY NAME2 @411
+SAY IDENTIFIED_DESC @412
+
+COPY ~JJSDS/itm/sds#y05.itm~      ~override/sds#y05.itm~
+SAY NAME2 @411
+SAY IDENTIFIED_DESC @412
+
+COPY ~JJSDS/itm/sds#y06.itm~      ~override/sds#y06.itm~
+SAY NAME2 @411
+SAY IDENTIFIED_DESC @412
+
+COPY ~JJSDS/itm/sds#y07.itm~      ~override/sds#y07.itm~
+SAY NAME2 @411
+SAY IDENTIFIED_DESC @412
+
+COPY ~JJSDS/itm/sds#y08.itm~      ~override/sds#y08.itm~
+SAY NAME2 @411
+SAY IDENTIFIED_DESC @412
+
+COPY ~JJSDS/itm/sds#y09.itm~      ~override/sds#y09.itm~
+SAY NAME2 @411
+SAY IDENTIFIED_DESC @412
+
+COPY ~JJSDS/itm/sds#y10.itm~      ~override/sds#y10.itm~
+SAY NAME2 @411
+SAY IDENTIFIED_DESC @412
+
+COPY ~JJSDS/itm/sds#y11.itm~      ~override/sds#y11.itm~
+SAY NAME2 @421
+SAY IDENTIFIED_DESC @422
+
+COPY ~JJSDS/itm/sds#y12.itm~      ~override/sds#y12.itm~
+SAY NAME2 @421
+SAY IDENTIFIED_DESC @422
+
+COPY ~JJSDS/itm/sds#y13.itm~      ~override/sds#y13.itm~
+SAY NAME2 @421
+SAY IDENTIFIED_DESC @422
+
+COPY ~JJSDS/itm/sds#y14.itm~      ~override/sds#y14.itm~
+SAY NAME2 @421
+SAY IDENTIFIED_DESC @422
+
+COPY ~JJSDS/itm/sds#y15.itm~      ~override/sds#y15.itm~
+SAY NAME2 @421
+SAY IDENTIFIED_DESC @422
+
+COPY ~JJSDS/itm/sds#y16.itm~      ~override/sds#y16.itm~
+SAY NAME2 @421
+SAY IDENTIFIED_DESC @422
+
+COPY ~JJSDS/itm/sds#y17.itm~      ~override/sds#y17.itm~
+SAY NAME2 @421
+SAY IDENTIFIED_DESC @422
+
+COPY ~JJSDS/itm/sds#y18.itm~      ~override/sds#y18.itm~
+SAY NAME2 @421
+SAY IDENTIFIED_DESC @422
+
+COPY ~JJSDS/itm/sds#y19.itm~      ~override/sds#y19.itm~
+SAY NAME2 @421
+SAY IDENTIFIED_DESC @422
+
+COPY ~JJSDS/itm/sds#y20.itm~      ~override/sds#y20.itm~
+SAY NAME2 @421
+SAY IDENTIFIED_DESC @422
+
+COPY ~JJSDS/itm/sds#y21.itm~      ~override/sds#y21.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y22.itm~      ~override/sds#y22.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y23.itm~      ~override/sds#y23.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y24.itm~      ~override/sds#y24.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y25.itm~      ~override/sds#y25.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y26.itm~      ~override/sds#y26.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y27.itm~      ~override/sds#y27.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y28.itm~      ~override/sds#y28.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y29.itm~      ~override/sds#y29.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y30.itm~      ~override/sds#y30.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y31.itm~      ~override/sds#y31.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y32.itm~      ~override/sds#y32.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y33.itm~      ~override/sds#y33.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y34.itm~      ~override/sds#y34.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y35.itm~      ~override/sds#y35.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y36.itm~      ~override/sds#y36.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y37.itm~      ~override/sds#y37.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y38.itm~      ~override/sds#y38.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y39.itm~      ~override/sds#y39.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#y40.itm~      ~override/sds#y40.itm~
+SAY NAME2 @431
+SAY IDENTIFIED_DESC @432
+
+COPY ~JJSDS/itm/sds#k1.itm~      ~override/sds#k1.itm~
+SAY NAME2 @413
+SAY IDENTIFIED_DESC @414
+
+COPY ~JJSDS/itm/sds#k2.itm~      ~override/sds#k2.itm~
+SAY NAME2 @423
+SAY IDENTIFIED_DESC @424
+
+COPY ~JJSDS/itm/sds#k3.itm~      ~override/sds#k3.itm~
+SAY NAME2 @433
+SAY IDENTIFIED_DESC @434
+
+//////高阶SPL写入//////
+
+COPY ~JJSDS/spl/sds##00.spl~       ~override/sds##00.spl~
+SAY NAME1 @200
+SAY UNIDENTIFIED_DESC @372
+
+COPY ~JJSDS/spl/sds#xyz.spl~       ~override/sds#xyz.spl~
+SAY NAME1 @331
+SAY UNIDENTIFIED_DESC @332
+
+COPY ~JJSDS/spl/sds#dqg.spl~       ~override/sds#dqg.spl~
+SAY NAME1 @341
+SAY UNIDENTIFIED_DESC @342
+
+COPY ~JJSDS/spl/sds#l.spl~       ~override/sds#l.spl~
+SAY NAME1 @351
+SAY UNIDENTIFIED_DESC @352
+
+COPY ~JJSDS/spl/sds#al.spl~       ~override/sds#al.spl~
+SAY NAME1 @310
+SAY UNIDENTIFIED_DESC @362
+
+COPY ~JJSDS/spl/sds##m.spl~       ~override/sds##m.spl~
+SAY NAME1 @381
+SAY UNIDENTIFIED_DESC @382
+
+COPY ~JJSDS/spl/sds##t.spl~       ~override/sds##t.spl~
+SAY NAME1 @391
+SAY UNIDENTIFIED_DESC @392
+
+//////无需描述SPL写入//////
+
+COPY ~JJSDS/spl/sds#tm.spl~       ~override/sds#tm.spl~
+SAY NAME1 @210
+
+COPY ~JJSDS/spl/sds#fy.spl~       ~override/sds#fy.spl~
+SAY NAME1 @220
+
+COPY ~JJSDS/spl/sds#zs.spl~       ~override/sds#zs.spl~
+SAY NAME1 @230
+
+COPY ~JJSDS/spl/sds#sd.spl~       ~override/sds#sd.spl~
+SAY NAME1 @240
+
+COPY ~JJSDS/spl/sds#gs.spl~       ~override/sds#gs.spl~
+SAY NAME1 @250
+
+COPY ~JJSDS/spl/sds#gss.spl~       ~override/sds#gss.spl~
+SAY NAME1 @257
+
+COPY ~JJSDS/spl/sds#mq.spl~       ~override/sds#mq.spl~
+SAY NAME1 @260
+
+COPY ~JJSDS/spl/sds#ls.spl~       ~override/sds#ls.spl~
+SAY NAME1 @271
+
+COPY ~JJSDS/spl/sds#ydn.spl~       ~override/sds#ydn.spl~
+SAY NAME1 @291
+
+COPY ~JJSDS/spl/sds#sy.spl~       ~override/sds#sy.spl~
+SAY NAME1 @281
+
+COPY ~JJSDS/spl/spin#hx.spl~       ~override/spin#hx.spl~
+SAY NAME1 @321
+
+COPY ~JJSDS/spl/spin#al.spl~       ~override/spin#al.spl~
+SAY NAME1 @310
+
+COPY ~JJSDS/spl/sds#pt.spl~       ~override/sds#pt.spl~
+SAY NAME1 @501
+
+/////PRO细写入////
+
+COPY_EXISTING ~sds#fya.spl~ ~override~
+    WRITE_SHORT   0x98 ~%sds#fy%~
+
+COPY_EXISTING ~sds#sda.spl~ ~override~
+    WRITE_SHORT   0x98 ~%sds#sd%~
+    WRITE_SHORT   0xc0 ~%sds#sd%~
+    WRITE_SHORT   0xe8 ~%sds#sd%~
+
+COPY_EXISTING ~sds#mqa.spl~ ~override~
+    WRITE_SHORT   0x98 ~%sds#mq%~
+    WRITE_SHORT   0xc0 ~%sds#mq%~
+    WRITE_SHORT   0xe8 ~%sds#mq%~
+
+COPY_EXISTING ~sds#ala.spl~ ~override~
+    WRITE_SHORT   0x98 ~%sds#al%~
+	
+////覆盖式职业限制///
+
+COPY_EXISTING ~ABCLASRQ.2da~ ~override~	
+
+SET_2DA_ENTRY 51 1 1 ~18~
+SET_2DA_ENTRY 51 2 1 ~18~
+SET_2DA_ENTRY 51 3 1 ~18~
+SET_2DA_ENTRY 51 4 1 ~0~
+SET_2DA_ENTRY 51 5 1 ~9~
+SET_2DA_ENTRY 51 6 1 ~0~
+
+COPY_EXISTING ~abclsmod.2da~ ~override~	
+
+SET_2DA_ENTRY 51 1 1 ~2~
+SET_2DA_ENTRY 51 3 1 ~2~
+SET_2DA_ENTRY 51 4 1 ~-5~
+SET_2DA_ENTRY 51 5 1 ~-3~
+
+COPY_EXISTING ~alignmnt.2da~ ~override~	
+
+SET_2DA_ENTRY 51 1 1 ~1~
+SET_2DA_ENTRY 51 2 1 ~1~
+SET_2DA_ENTRY 51 3 1 ~0~
+SET_2DA_ENTRY 51 4 1 ~0~
+SET_2DA_ENTRY 51 5 1 ~0~
+SET_2DA_ENTRY 51 6 1 ~0~
+SET_2DA_ENTRY 51 7 1 ~1~
+SET_2DA_ENTRY 51 8 1 ~0~
+SET_2DA_ENTRY 51 9 1 ~0~	
+
+COPY_EXISTING ~WEAPPROF.2da~ ~override~	
+
+SET_2DA_ENTRY 3 51 1 ~0~
+SET_2DA_ENTRY 4 51 1 ~1~
+SET_2DA_ENTRY 5 51 1 ~0~
+SET_2DA_ENTRY 6 51 1 ~0~
+SET_2DA_ENTRY 7 51 1 ~1~
+SET_2DA_ENTRY 8 51 1 ~0~
+SET_2DA_ENTRY 9 51 1 ~0~
+SET_2DA_ENTRY 10 51 1 ~1~
+SET_2DA_ENTRY 11 51 1 ~0~
+SET_2DA_ENTRY 12 51 1 ~1~
+SET_2DA_ENTRY 13 51 1 ~1~
+SET_2DA_ENTRY 14 51 1 ~0~
+SET_2DA_ENTRY 15 51 1 ~0~
+SET_2DA_ENTRY 16 51 1 ~1~
+SET_2DA_ENTRY 17 51 1 ~1~
+SET_2DA_ENTRY 18 51 1 ~1~
+SET_2DA_ENTRY 19 51 1 ~0~
+SET_2DA_ENTRY 20 51 1 ~1~
+SET_2DA_ENTRY 21 51 1 ~0~
+SET_2DA_ENTRY 22 51 1 ~0~
+SET_2DA_ENTRY 23 51 1 ~0~
+SET_2DA_ENTRY 24 51 1 ~0~
+SET_2DA_ENTRY 25 51 1 ~0~
+SET_2DA_ENTRY 26 51 1 ~0~
+SET_2DA_ENTRY 27 51 1 ~0~
+SET_2DA_ENTRY 28 51 1 ~0~
+SET_2DA_ENTRY 29 51 1 ~1~
+SET_2DA_ENTRY 30 51 1 ~1~
+SET_2DA_ENTRY 31 51 1 ~0~
+SET_2DA_ENTRY 32 51 1 ~0~
+SET_2DA_ENTRY 33 51 1 ~1~
+
+	
+///字符替换///
+
+STRING_SET ~45851~ @100
+STRING_SET ~45858~ @100
+STRING_SET ~45867~ @101	
+
+/////
+
+AT_INTERACTIVE_EXIT ~VIEW JJSDS\readme2.txt~
+
+	
